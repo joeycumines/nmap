@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Ullaakut/nmap/v2"
+	"github.com/joeycumines/nmap"
 )
 
 func main() {

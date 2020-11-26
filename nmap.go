@@ -176,12 +176,12 @@ func (s *Scanner) RunWithProgress(liveProgress chan<- float32) (result *Run, war
 	// Listening for channel doneProgress
 	go func() {
 		type progress struct {
-			TaskProgress     []TaskProgress `xml:"taskprogress" json:"task_progress"`
+			TaskProgress []TaskProgress `xml:"taskprogress" json:"task_progress"`
 		}
 		p := &progress{}
 		for {
 			select {
-			case <- doneProgress:
+			case <-doneProgress:
 				close(liveProgress)
 				return
 			default:

@@ -8,9 +8,9 @@
     <a href="LICENSE">
         <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" />
     </a>
-    <a href="https://pkg.go.dev/github.com/Ullaakut/nmap/v2"><img src="https://pkg.go.dev/badge/github.com/Ullaakut/nmap/v2" alt="PkgGoDev github.com/Ullaakut/nmap/v2"></a>
-    <a href="https://goreportcard.com/report/github.com/Ullaakut/nmap">
-        <img src="https://goreportcard.com/badge/github.com/Ullaakut/nmap">
+    <a href="https://pkg.go.dev/github.com/joeycumines/nmap"><img src="https://pkg.go.dev/badge/github.com/joeycumines/nmap" alt="PkgGoDev github.com/joeycumines/nmap"></a>
+    <a href="https://goreportcard.com/report/github.com/joeycumines/nmap">
+        <img src="https://goreportcard.com/badge/github.com/joeycumines/nmap">
     </a>
     <a href="https://travis-ci.org/Ullaakut/nmap">
         <img src="https://travis-ci.org/Ullaakut/nmap.svg?branch=master">
@@ -55,7 +55,7 @@ import (
     "log"
     "time"
 
-    "github.com/Ullaakut/nmap/v2"
+    "github.com/joeycumines/nmap"
 )
 
 func main() {
